@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Chicken Stir Fry",
+    "description": "A quick and flavorful chicken stir fry packed with vegetables.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+    "time": "30",
+    "calories": "320",
+    "image": "https://i.ibb.co/gFt4mN0/image-1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish with creamy sauce and crispy bacon.",
+    "ingredients": ["400 g spaghetti", "200 g bacon", "4 eggs", "100 g Parmesan cheese", "2 cloves garlic"],
+    "time": "25",
+    "calories": "450",
+    "image": "https://i.ibb.co/2gyRW2g/image-2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Vegetable Curry",
+    "description": "A hearty and spicy curry made with mixed vegetables.",
+    "ingredients": ["300 g mixed vegetables", "400 ml coconut milk", "2 tbsp curry paste", "1 onion", "2 cloves garlic"],
+    "time": "40",
+    "calories": "280",
+    "image": "https://i.ibb.co/f4sC4hC/image-3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Grilled Salmon",
+    "description": "Juicy salmon fillets marinated and grilled to perfection.",
+    "ingredients": ["4 salmon fillets", "2 tbsp olive oil", "1 lemon", "Salt and pepper to taste"],
+    "time": "20",
+    "calories": "300",
+    "image": "https://i.ibb.co/0GCdFBN/image-4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Caprese Salad",
+    "description": "A refreshing salad with ripe tomatoes, fresh mozzarella, and basil leaves.",
+    "ingredients": ["3 ripe tomatoes", "200 g fresh mozzarella", "1 bunch basil leaves", "2 tbsp balsamic vinegar", "2 tbsp olive oil"],
+    "time": "15",
+    "calories": "200",
+    "image": "https://i.ibb.co/BLDnMfy/image-5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Beef Tacos",
+    "description": "Tender beef wrapped in soft tortillas with salsa and guacamole.",
+    "ingredients": ["500 g beef", "8 soft tortillas", "1 onion", "1 tomato", "1 avocado", "1 lime"],
+    "time": "35",
+    "calories": "380",
+    "image": "https://i.ibb.co/PY9TB5Q/image-6.jpg"
+  }
+]
