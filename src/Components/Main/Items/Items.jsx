@@ -1,5 +1,6 @@
 import Item from "./Item/Item.jsx";
 import {useEffect, useState} from "react";
+import PropTypes from "prop-types";
 
 
 const Items = ({handleWantToCook}) => {
@@ -20,4 +21,7 @@ const Items = ({handleWantToCook}) => {
     );
 };
 
+Items.propTypes = {
+    handleWantToCook: PropTypes.func    
+}
 export default Items;

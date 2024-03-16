@@ -1,5 +1,6 @@
 import { FaFire } from "react-icons/fa";
 import { LuClock3 } from "react-icons/lu";
+import PropTypes from "prop-types";
 
 const Item = ({item, handleWantToCook}) => {
     const {name, description, ingredients, time, calories, image} = item;
@@ -30,8 +31,11 @@ const Item = ({item, handleWantToCook}) => {
                     </div>
                 </div>
             </div>
-    )
-        ;
+    );
 };
 
+Item.propTypes = {
+    item: PropTypes.object,
+    handleWantToCook: PropTypes.func
+}
 export default Item;
