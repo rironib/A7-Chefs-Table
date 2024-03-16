@@ -20,7 +20,7 @@ const Main = () => {
     }
     return (
         <>
-            <div className='w-10/12 mx-auto'>
+            <div className='w-11/12 max-w-[1280px] mx-auto'>
                 <Banner></Banner>
                 <Recipes/>
                 <div className='flex flex-col lg:flex-row gap-6 mb-12'>

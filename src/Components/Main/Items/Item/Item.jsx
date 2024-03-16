@@ -8,7 +8,7 @@ const Item = ({item, handleWantToCook}) => {
             <div className="card bg-base-100 border-2">
                 <figure className="p-6">
                     <img src={image}
-                         className="w-auto rounded-xl"/>
+                         className="w-full rounded-xl"/>
                 </figure>
                 <div className="card-body p-6 pt-0">
                     <h2 className="font-semibold text-xl">{name}</h2>

@@ -4,7 +4,7 @@ import { FaRegCircleUser } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <div className="w-10/12 mx-auto navbar bg-base-100">
+        <div className="w-11/12 max-w-[1280px] mx-auto navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden px-0">
