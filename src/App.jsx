@@ -1,12 +1,12 @@
-import Header from "./Header/Header.jsx";
-import Main from "./Main/Main.jsx";
+import Header from "./Components/Header/Header.jsx";
+import Main from "./Components/Main/Main.jsx";
 
 function App() {
 
   return (
       <>
-          <Header></Header>
-          <Main></Main>
+          <Header/>
+          <Main/>
       </>
   )
 }

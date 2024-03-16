@@ -1,7 +1,7 @@
 import { FaFire } from "react-icons/fa";
 import { LuClock3 } from "react-icons/lu";
 
-const Item = ({item}) => {
+const Item = ({item, handleWantToCook}) => {
     const {name, description, ingredients, time, calories, image} = item;
     return (
             <div className="card bg-base-100 border-2">
@@ -23,7 +23,10 @@ const Item = ({item}) => {
                         <p className='flex items-center gap-2'><FaFire/> {calories} calories</p>
                     </div>
                     <div className="card-actions">
-                        <button className="btn bg-green-500 px-6 py-2 min-h-10 h-10 rounded-3xl">Buy Now</button>
+                        <button onClick={() => handleWantToCook(item)}
+                                className="btn bg-green-500 px-6 py-2 min-h-10 h-10 rounded-3xl">
+                            Want to Cook
+                        </button>
                     </div>
                 </div>
             </div>

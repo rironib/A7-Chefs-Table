@@ -2,7 +2,7 @@ import Item from "./Item/Item.jsx";
 import {useEffect, useState} from "react";
 
 
-const Items = () => {
+const Items = ({handleWantToCook}) => {
     const [items, setItems] = useState([]);
     useEffect(() => {
         fetch('api.json')
@@ -13,7 +13,7 @@ const Items = () => {
         <>
             <div className='lg:w-7/12 grid lg:grid-cols-2 gap-4'>
                 {
-                    items.map((item,idx) => <Item key={idx} item={item}></Item>)
+                    items.map((item) => <Item key={item.id} handleWantToCook={handleWantToCook} item={item}></Item>)
                 }
             </div>
         </>
